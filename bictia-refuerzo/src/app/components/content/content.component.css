@@ -1,0 +1,84 @@
+.dos{
+    width: 50%;
+}
+
+.tres{
+    width: 33.3%
+}
+
+.cuatro{
+    width: 25%;
+}
+
+.col{
+    float:left;
+}
+
+.row{
+    overflow: hidden;
+}
+
+#sectionClot{
+    background-color: blue;
+}
+
+#ropMasc{
+    background-color: aquamarine;
+}
+
+#ropMascImg{
+    height: 350px;
+    background-color: salmon; 
+}
+
+img{
+    width: 100%;
+}
+
+#ropMascTit{
+    background-color: indianred
+}
+
+#ropFem{
+    background-color: lightblue; 
+}
+
+#ropFemImg{
+    height: 350px;
+    background-color: mediumpurple;
+}
+
+#ropFemTit{
+    background-color: mediumseagreen;
+}
+
+#info{
+    height: 250px;
+    background-color: olive;
+}
+
+#txt{
+    background-color: pink;
+}
+
+#chat{
+    background-color: black;
+    margin: 10px 0;
+    border: 1px solid black;
+}
+
+#box{
+    background-color: white;
+    height: 200px;
+}
+
+#send{
+    background-color: green;
+    height: 50px;
+}
+
+textarea{
+    height: 50px;
+    width: 90%;
+    margin: 0 5%;
+}

@@ -1,0 +1,28 @@
+<div id="header">
+    <div id="menu">
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Producto</a>
+                    <ul>
+                        <li>Leggins</li>
+                        <li>Chaquetas</li>
+                        <li>Botas</li>
+                    </ul>
+                </li>
+                <li>
+                    <!-- <a [routerLink]="['/contenido', contenido.id]">Contacto</a> -->
+                    <a routerLink="['/contenido', contenido.id]">Contacto</a>
+                    <!-- <a routerLink="/contenido">Contacto</a> -->
+
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="log">
+        <div id="session">
+            <input type="text" (keyup.enter) = "datoUsuario(nombre.value)" #nombre/>
+        </div>
+    </div>
+</div>

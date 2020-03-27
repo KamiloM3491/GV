@@ -1,0 +1,43 @@
+<div id="main">
+    <div id="sectionClot" class="row">
+        <div id="ropMasc" class="col dos">
+            <div id="ropMascImg" class="row">
+                <img [src] = "datosTienda.ropaMasculina"/>
+            </div>
+
+            <div id="ropMascTit" class="row">
+                <span>{{ datosTienda.descripMan }}</span>
+            </div>
+        </div>
+
+        <div id="ropFem" class="col dos">
+            <div id="ropFemImg" class="row">
+                    <img [src] = "datosTienda.ropaFemenina" />
+            </div>
+
+            <div id="ropFemcTit" class="row">
+                <span>{{ datosTienda.descripWom }}</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="info" class="row">
+        <div id="txt">
+            <p>{{  datosTienda.infoStore }}</p>
+        </div>
+    </div>
+
+    <div id="chat" class="col cuatro">
+        <div id="box" class="row">
+            <span>{{ chat.data }}</span>
+        </div>
+
+        <div id="send" class="row">
+            <textarea [(ngModel)] = "chat.data"></textarea>
+        </div>
+
+        <div [id]="prueba" class="row" style="color: white;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aut natus dolores non culpa optio perspiciatis voluptatum, quod, sapiente qui architecto laudantium repellendus in enim numquam labore ullam ipsum dolorum.
+        </div>
+    </div>
+</div>
